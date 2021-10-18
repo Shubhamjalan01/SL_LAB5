@@ -1,0 +1,70 @@
+body { font-family: Papyrus; background-color: #FFFFC6; }
+.header {
+  height: 90px;
+  width: 1333px;
+  background-color: #FAFFDB;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #EDD1BD;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #34B1A4;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #428079;
+  color: white;
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  top: 153;
+  left: 8;
+  background-color: #EBEBEB;
+  padding-top: 20px;
+  padding: 6px 8px 6px 16px;
+  color: #111;
+}
+.footer1{
+  font-size: 18px;
+  margin-top: 273px;
+  background-color: #FFFFE5;
+  color: black;
+}
+.footer1 .footer-left{
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+  padding: 13px;
+  width: 30%;
+}
+.footer1 .footer-center{
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+  padding: 13px;
+  width: 30%;
+}
+.footer1 .footer-right{
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+  padding: 13px;
+  width: 30%;
+}
